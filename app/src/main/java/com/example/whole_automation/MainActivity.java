@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                validarUusuario("http://192.168.1.243/WebCasa/validar_usuario.php");
+                validarUusuario("http://YourPathHere");
             }
         });
 

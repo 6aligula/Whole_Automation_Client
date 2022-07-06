@@ -40,7 +40,7 @@ public class Registro extends AppCompatActivity {
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                registrar("http://192.168.1.243/WebCasa/registro_app.php");
+                registrar("http://YourPathHere");
             }
         });
     }

@@ -50,7 +50,7 @@ public class Salon extends AppCompatActivity {
         on_LuzSalon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                encederlampara("http://192.168.1.243/WebCasa/onLampara.php");
+                encederlampara("http://YourPathHere");
             }
 
         });
@@ -58,28 +58,28 @@ public class Salon extends AppCompatActivity {
         off_LuzSalon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                apagarlampara("http://192.168.1.243/WebCasa/offLampara.php");
+                apagarlampara("http://YourPathHere");
             }
         });
 
         on_CalefaccionSalon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                encendercalefaccion("http://192.168.1.243/WebCasa/onCalefaccion.php");
+                encendercalefaccion("http://YourPathHere");
             }
         });
 
         off_CalefaccionSalon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                apagarcalefaccion("http://192.168.1.243/WebCasa/offCalefaccion.php");
+                apagarcalefaccion("http://YourPathHere");
             }
         });
 
         humedad_salon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                temp_hum("http://192.168.1.243/WebCasa/temp_hum.php");
+                temp_hum("http://YourPathHere");
             }
         });
 
